@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Firma</title>
+	<style type="text/css">
+
+		@font-face {
+		    font-family: 'Nexa_Free_Bold';
+		    src: url('Nexa_Free_Bold-webfont.woff2') format('woff2'),
+		         url('Nexa_Free_Bold-webfont.woff') format('woff');
+		    font-weight: normal;
+		    font-style: normal;
+		}
+
+		@font-face {
+		    font-family: 'Nexa_Free_Light';
+		    src: url('Nexa_Free_Light-webfont.woff2') format('woff2'),
+		         url('Nexa_Free_Light-webfont.woff') format('woff');
+		    font-weight: normal;
+		    font-style: normal;
+		}
+
+		* {
+			margin: 0;
+			padding: 0;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+		.contenedor {
+			max-width: 1000px;
+			display: flex;
+			flex-direction: column;
+		}
+		.contenedor div.header {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		} 
+		.contenedor div.header .logo {
+			width: 25%;
+		}
+
+		.contenedor div.header .logo img {
+			vertical-align: middle;
+			width: 100%;
+			height: auto;
+		}
+
+		.contenedor div.header .info {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 25%;
+		}
+
+		.contenedor div.header .info {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 36px 0 0 0;
+		}
+
+		.contenedor div.header .info .direccion {
+			font-family: 'Nexa_Free_Light';
+			margin: 10px 0 0 0;
+			text-align: center;
+		}
+
+		.ligero {
+			font-weight: 300;
+		}
+
+		.contenedor div.header .titulo {
+			display: flex;
+			flex-direction: column;
+			width: 48%;
+			padding: 36px 0 0 0;
+		}
+
+		.contenedor div.header .titulo h2 {
+			padding-bottom: 10px;
+		    border-bottom: 1px red solid;
+		    width: 70%;
+		    font-family: 'Nexa_Free_Bold';
+		}
+
+		.contenedor div.header .titulo p {
+			margin: 10px 0 0 15px;
+			font-family: 'Nexa_Free_Light';
+			font-size: 20px;
+		}
+
+		.contenedor div.footer {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			background-color: #000;
+			color: #fff;
+			font-family: 'Nexa_Free_Light';
+		} 
+
+		.contenedor div.footer .enlaces {
+			    display: flex;
+			    flex-direction: row;
+			    align-items: center;
+			    justify-content: center;
+			    width: 90%;
+			    flex-wrap: wrap;
+			    margin: auto;
+		}
+
+		.contenedor div.footer .enlaces p {
+			padding: 10px 5px;
+			display: flex;
+			flex-direction: row;
+		    justify-content: space-between;
+		    align-items: center;
+		}
+
+		.contenedor div.footer .enlaces p img {
+			vertical-align: top;
+			margin-right: 5px;
+		}
+
+		.contenedor div.footer .enlaces p a {
+			font-family: 'Nexa_Free_Light';
+			color: #fff;
+			text-decoration: none;
+		}
+
+		.contenedor div.footer .enlaces p a:hover {
+			color: #fff;
+		}
+
+		.contenedor div.texto p {
+			padding: 20px;
+			text-align: justify;
+			font-family: 'Nexa_Free_Light';
+		}
+	</style>
+</head>
+<body>
+	<div class="contenedor">
+		<div class="header">
+			<div class="logo">
+				<img src="logo.png" alt="logo">
+			</div>
+			<div class="titulo">
+				<h2>HISPANO ENERG&Eacute;TICA SL.</h2>
+				<p class="ligero">CEO</p>
+			</div>
+			<div class="info">
+				<div class="redes">
+					<a href="#"><img src="fb.png" alt="facebook"></a>
+					<a href="#"><img src="link.png"></a>
+					<a href="#"><img src="twitter.png"></a>
+				</div>
+				<div class="direccion ligero">
+					<p>Calle Sirio, N&deg;56</p>
+					<p>Piso 2&deg; B , 28004</p>
+					<p>Madrid, España</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="enlaces">
+				<p><img src="telf.png"> +34 783 943 295</p>
+				<p><img src="correo.png"> <a href="mailto:comercial@hispanoenergetica.com">comercial@hispanoenergetica.com</a></p>
+				<p><img src="web.png"> <a href="www.hispanoenergetica.com">www.hispanoenergetica.com</a></p>
+			</div>
+		</div>
+		<div class="texto">
+			<p>Advertencia legal: De acuerdo a la Ley Org&aacute;nica 15/1999, de Protecci&oacute;n de Datos de Car&aacute;cter Personal, le informamos que los datos facilitados se incluir&aacute;n en un fichero automatizado del que es responsable HISPANO ENERG&Eacute;TICA SL. Estos datos podr&aacute;n ser utilizados con la finalidad de enviarle informaci&oacute;n de cualquier tipo relativa a los servicios profesionales que les prestamos. Le informamos de la posibilidad de ejercer sus derechos de acceso, rectificaci&oacute;n, cancelaci&oacute;n u oposici&oacute;n al tratamiento de sus datos dirigi&eacute;ndose a Calle Sirio, N&deg;56 - Piso 2&deg; B , 28004 (Madrid).En virtud de la ley 34/2002 de 11 de Julio de Servicios de la Sociedad de la Informaci&oacute;n y Comercio Electr&oacute;nico (LSSI-CE), este e-mail est&aacute; dirigido a la persona(s) nombrada anteriormente y es de car&aacute;cter confidencial, personal e intransferible. Si ha recibido este mensaje por equivocaci&oacute;n, por favor notifíquelo inmediatamente, por tel&eacute;fono o mediante e-mail, a la persona que se lo ha enviado y borre el mensaje original junto con sus ficheros anexos sin leerlo o grabarlo total o parcialmente. Gracias</p>
+		</div>
+	</div>
+</body>
+</html>
